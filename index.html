@@ -10,7 +10,7 @@
     <title>Dilan kanishka</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom" id="home-position">
         <div class="container-fluid">
           <a class="navbar-brand fs-2 fw-bold" href="#">Dilan Kanishka</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-lg-0 fs-5 fw-semibold gap-4">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home-position">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -38,9 +38,20 @@
         </div>
       </nav>
 
+    <!-- to come the home section -->
+    <div class="d-flex justify-content-end">
+        <a href="#home-position" class="position-fixed m-2">
+            <img src="image/home.png" alt="arrow image" width="60px">  
+        </a>
+    </div>
+    <!-- main details background -->
+    <div class=" main-details-bg z-n1">
+
+    </div>
+
     <!-- body section start -->
     <div class="container mt-5">
-        <div class="row align-items-center" id="home">
+        <div class="row align-items-center">
             <div class="col-md-6">
                 <!-- user image -->
                 <img src="image/user-image/user 2.jpg" class="user-main-img m-5" alt="user Image">
@@ -55,10 +66,26 @@
                 </div>
                 <!-- social media links -->
                 <div class="d-flex justify-content-center gap-4 img-fluid mb-4">
-                    <div><img src="image/social-media-image/github.png" alt="github-icon" width="40px"></div>
-                    <div><img src="image/social-media-image/whatsapp.png" alt="whatsapp-icon" width="40px"></div>
-                    <div><img src="image/social-media-image/linkedin.png" alt="linkedin-icon" width="40px"></div>
-                    <div><img src="image/social-media-image/gmail.png" alt="gmail-icon" width="40px"></div>
+                    <div> 
+                        <a href="https://github.com/Dilan032" target="_blank" rel="noopener noreferrer">
+                        <img src="image/social-media-image/github.png" alt="github-icon" width="40px">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://wa.me/94779922985" target="_blank" rel="noopener noreferrer">
+                        <img src="image/social-media-image/whatsapp.png" alt="whatsapp-icon" width="40px">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/dilan-kanishka032/"  target="_blank" rel="noopener noreferrer">
+                        <img src="image/social-media-image/linkedin.png" alt="linkedin-icon" width="40px">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:dilankanishka032@gmail.com">
+                        <img src="image/social-media-image/gmail.png" alt="gmail-icon" width="40px">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,7 +109,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">View</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +119,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">View</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +129,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">View</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +139,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">View</a>
                     </div>
                 </div>
             </div>
@@ -125,11 +152,12 @@
             <h2 id="Skills" class="mb-4">My Skills😎</h2>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="card text-bg-secondary secondary mb-3 shadow-bg" >
+                    <div class="card text-bg-secondary mb-3 shadow-bg" >
                         <div class="card-header">Programming Languages</div>
                         <div class="card-body">
-                          <h5 class="card-title">Primary card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!-- <h5 class="card-title">Primary card title</h5> -->
+                          <p class="card-text">⭐ Html ⭐ Css</p>
+                          <p class="card-text">⭐ Php ⭐  Sql</p>
                         </div>
                       </div>
                 </div>
@@ -137,17 +165,19 @@
                     <div class="card text-bg-dark mb-3 shadow-bg">
                         <div class="card-header">Frameworks</div>
                         <div class="card-body">
-                          <h5 class="card-title">Secondary card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!-- <h5 class="card-title">Secondary card title</h5> -->
+                          <p class="card-text">⭐Bootstrap Css Framework</p>
+                          <p class="card-text">⭐Laravel Backend Framework</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="card text-bg-success mb-3 shadow-bg">
-                        <div class="card-header">Hobbies</div>
+                    <div class="card text-bg-secondary mb-3 shadow-bg">
+                        <div class="card-header">Tools</div>
                         <div class="card-body">
-                          <h5 class="card-title">Success card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!-- <h5 class="card-title">Success card title</h5> -->
+                          <p class="card-text">⭐ Figma</p>
+                          <p class="card-text">⭐ GitHub</p>
                         </div>
                       </div>
                 </div>
