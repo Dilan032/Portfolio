@@ -8,5 +8,9 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .large-heading {
-    font-size: 3.5rem; /* Adjust size as needed */
+    font-size: 3.5rem; 
+}
+.about-bg{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
