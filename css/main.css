@@ -1,3 +1,6 @@
+/* html{
+    overflow-x: hidden;
+} */
 body{
     background-color: rgba(233, 233, 233, 0.77);
 }
@@ -12,5 +15,14 @@ body{
 }
 .about-bg{
     background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.project-section-card{
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-bg{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
