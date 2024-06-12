@@ -36,4 +36,5 @@ body{
 
 .shadow-bg{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-style: outset;
 }
