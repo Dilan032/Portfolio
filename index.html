@@ -38,12 +38,15 @@
         </div>
       </nav>
 
-    <!-- to come the home section -->
+
+    <!-- web share function --> 
     <div class="d-flex justify-content-end">
-        <a href="#home" class="position-fixed m-2">
-            <img src="image/home.png" alt="arrow image" width="60px">  
-        </a>
+        <div class="position-fixed mt-4 me-4 web-share-icon">
+            <img src="image/share.png" id="shareBtn" alt="share icon" width="50px"> 
+        </div>
     </div>
+    
+
     <!-- main details background -->
     <div class=" main-details-bg z-n1">
         <!-- this is white background -->
@@ -92,10 +95,12 @@
                         </a>
                     </div>
                 </div>
+                <!-- for resume download or view -->
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center position-relative text-center">
-                    <button  onclick="openPDF()" type="button" class="btn btn-primary btn-lg mb-4 me-md-2 position-static position-md-absolute hover-animation">📄 View Resume</button>
-                    <a href="resume/123.pdf" download="123.PDF" type="button" class="btn btn-primary btn-lg mb-4 me-md-2 position-static position-md-absolute hover-animation">📥 Download Resume</a>
+                    <button  onclick="openPDF()" class="btn btn-primary btn-lg mb-4 me-md-2 position-static position-md-absolute hover-animation">📄 View Resume</button>
+                    <a href="resume/123.pdf" download="123.PDF" class="btn btn-primary btn-lg mb-4 me-md-2 position-static position-md-absolute hover-animation">📥 Download Resume</a>
                 </div>
+
             </div>
         </div>
     </div>
@@ -285,7 +290,6 @@
                 </div>
             </div>    
 
-
             <!-- <pre class="text-center">
                 I am always open to new opportunities and collaborations. Feel free to explore my projects and connect with me through [LinkedIn/Email/Portfolio Website]. 
                 Let's work together to create innovative solutions and drive technological advancements!
@@ -293,14 +297,22 @@
 
         </div>
 
+        <!-- to come the home section -->
+        <div class="d-flex justify-content-end">
+            <a href="#home" class="m-2">
+                <img src="image/home.png" alt="arrow icon" width="60px">  
+            </a>
+        </div>
+
         <!-- footer -->
         <div class="p-2 mb-2 bg-dark text-white text-center"> 👨‍💻<pre>D_oneCreation</pre> </div>
-
 
 
     <!-- bootstrap css cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- for open the PDF -->
     <script src="js/openPDF.js"></script>
+    <!-- for web share function -->
+    <script src="js/webShare.js"></script>
 </body>
 </html>

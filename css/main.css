@@ -4,6 +4,18 @@ body{
 a{
     text-decoration: none;
 }
+.web-share-icon{
+    margin-top: 105px;
+    margin-left: 620px;
+    border-style: outset;
+    border-radius: 100%;
+    padding: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.web-share-icon:hover{
+    transform: scale(1.1);
+}
 .user-main-img{
     border-radius: 100%;
     width: 80%;
