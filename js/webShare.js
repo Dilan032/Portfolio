@@ -6,8 +6,8 @@ shareBtn.addEventListener('click', event => {
   if (navigator.share) {
     // Browser supports native share api
     navigator.share({
-      text: 'Please read this great article: ',
-      url: 'https://www.google.com/'
+      text: 'Dilan Portfolio website',
+      url: 'https://github.com/Dilan032/Portfolio'
     }).then(() => {
       console.log('Thanks for sharing!');
     })
