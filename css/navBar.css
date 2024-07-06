@@ -8,3 +8,19 @@
     margin-top: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+/* .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+} */
+
+ /* Media query for mobile screens */
+ @media (max-width: 767.98px) {
+    .navbar{
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        padding: 0px;
+        padding-top: 14px;
+    }
+}
