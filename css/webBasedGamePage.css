@@ -1,11 +1,11 @@
 .title-position{
-    margin-top: 200px;
+    margin-top: 350px;
     margin-bottom: 20px;
 }
  /* Media query for mobile screens */
  @media (max-width: 767.98px) {
     .title-position{
-        margin-top: 250px;
+        margin-top: 400px;
         margin-bottom: 20px;
     }
 
