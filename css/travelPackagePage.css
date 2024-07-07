@@ -1,0 +1,23 @@
+.title-position-t{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+ /* Media query for mobile screens */
+ @media (max-width: 767.98px) {
+    .title-position-t{
+        margin-top: 250px;
+        margin-bottom: 20px;
+    }
+
+}
+.sub-title-position-t{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.websub-title-position-t{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.shadow-t{
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+}
