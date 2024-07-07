@@ -1,5 +1,5 @@
 .title-position{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 20px;
 }
  /* Media query for mobile screens */
@@ -15,7 +15,7 @@
     margin-bottom: 60px;
 }
 .websub-title-position{
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 60px;
 }
 .shadow{
