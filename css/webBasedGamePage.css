@@ -2,6 +2,14 @@
     margin-top: 100px;
     margin-bottom: 20px;
 }
+ /* Media query for mobile screens */
+ @media (max-width: 767.98px) {
+    .title-position{
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+
+}
 .sub-title-position{
     margin-top: 60px;
     margin-bottom: 60px;
